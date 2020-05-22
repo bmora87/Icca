@@ -5,11 +5,11 @@ $alert = '';
 session_start();
 
 if(!empty($_SESSION['active']))
-{	
+{
 	header('location: form2.php');
-	
+
 }else{
-	
+
 	if(!empty($_POST))
 	{
 		if(empty($_POST['usuario']) || empty($_POST['clave']))
