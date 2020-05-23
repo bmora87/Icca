@@ -1,6 +1,6 @@
 <?php
 
-	$host = "ip-test";
+	$host = "10.0.3.4";
 	$user = "icca";
 	$password = "icca_pass";
 	$db = "ICCA";
