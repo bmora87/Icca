@@ -11,9 +11,9 @@
 
 h1{
 	font-size: 36px;
-	font-family: 'Fredoka One', cursive;
-/*	font-weight: bold;*/
-    	letter-spacing: 1px;
+	font-family: 'arial';
+    font-weight: bold;
+    letter-spacing: 1px;
 }
 
 header{
@@ -21,7 +21,6 @@ header{
 	width: 100%;
 }
 .header{
-	font-family: 'Fredoka One', cursive;
 	color: #FFF;
 /*	background: #B91911; ROJO */
 /*	background: #2980B9;*/
@@ -48,29 +47,37 @@ header{
 .optionsBar span {
     color: #FFF;
     font-size: 15pt;
-    font-family: 'Fredoka One', cursive;
+    font-family: 'arial';
     text-transform: uppercase;
 }
 
 .optionsBar p {
     color: #FFF;
     font-size: 15pt;
-    font-family: 'Fredoka One', cursive;
-    margin-right: 50px;
-    margin-left: -300px;
+    font-family: 'arial';
+	margin-right: 50px;
+	margin-left: -300px;
 }
 .b {
     color: #FFF;
     font-size: 15pt;
-    font-family: 'Fredoka One', cursive;
-    margin-right: 30px;
-    margin-left: -10px;
+    font-family: 'arial';
+	margin-right: 30px;
+	margin-left: -10px;
 }
+/*
+.logoRia {
+    margin-right: 1400px;
+    width: 35px;
+    height: 35px;
+	border-radius:10px;
+}
+*/
 .exit{
-    width: 40px;
+	width: 40px;
     height: 40px;
-    margin-right: 20px;
-    margin-left: -20px;
+	margin-right: 20px;
+	margin-left: -20px;
 }
 .optionsBar a {
     display: -webkit-flex;
@@ -86,7 +93,6 @@ header{
 h3{
 	font-family: 'Arial';
 	font-size: 25pt;
-        border-radius: 50px;
 	letter-spacing: 1px;
 	width: 100%;
 	background: #2980b9;
@@ -127,7 +133,6 @@ h2{
 	background: #fff;
 	width: 500px;
 	padding: 10px;
-        border-radius: 50px;  
 }
 /*Estilo de la imagen*/
 #container form img{
@@ -186,23 +191,19 @@ h2{
 }
 /*Estilo del boton ingresar*/
 #container form input[type="submit"]{
-	font-family: 'Fredoka One', cursive;
-        background: #088A68;
+	background: #088A68;
 	padding: 10px;
 	color: #fff;
 	letter-spacing: 1px;
 	border: 0;
 	cursor: pointer;
-        border-radius: 50px;
-
 }
 
 table{
 	/*border-collapse: collapse;*/
 	font-size: 12pt;
-	font-family: 'Fredoka One', cursive;
+	font-family: 'arial';
 	width: 100%;
-
 }
 
 table th{
@@ -211,20 +212,18 @@ table th{
 /*	background: #3d7ba8;*/
 	background: #2980b9;
 	color: #fff;
-
 }
 
-table tr:nth-child(even){
+table tr:nth-child(odd){
 	background: #FADBD8;
+	
 }
 table tr{
-	font-family: 'Arial';
-
+	font-family: 'arial';
 }
 
 table td{
 	padding: 10px;
-	border-radius: 50px;
 }
 /*Estilo de la alerta por contraseña fallida*/
 .alert{
