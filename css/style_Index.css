@@ -7,12 +7,15 @@
 }
 /*Estilo del h3 --Iniciar Sesion--*/
 h3{
-	font-family: 'Arial';
+/*	font-family: 'Arial';*/
+	font-family: 'Fredoka One', cursive;
 	font-size: 25pt;
 	letter-spacing: 1px;
 	width: 100%;
 	background: #2980b9;
+/*	background: #ff334f;*/
 	padding: 15px;
+	border-radius: 50px;
 	color: #fff;
 	text-align: center;
 	text-transform: uppercase;
@@ -49,6 +52,8 @@ h2{
 	background: #fff;
 	width: 400px;
 	padding: 10px;
+	border-radius: 50px;
+
 }
 /*Estilo de la imagen*/
 #container form img{
@@ -65,11 +70,13 @@ h2{
 	font-size: 16pt;
 	display: block;
 	margin: 25px auto;
-	border-radius: 5px;
+/*	border-radius: 50px;*/
 	border: 1px solid #85929e;
 }
 /*Estilo del boton ingresar*/
 #container form input[type="submit"]{
+	font-family: 'Fredoka One', cursive;
+	border-radius: 50px;
 	background: #088A68;
 	padding: 10px;
 	color: #fff;
